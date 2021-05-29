@@ -1,0 +1,49 @@
+
+ sudo apt search openjdk
+ sudo apt update
+ sudo apt install apt-transport-https openjdk-8-jre-headless
+  wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
+
+  echo "deb https://artifacts.elastic.co/packages/6.x/apt stable main" | sudo tee /etc/apt/sources.list.d/elastic-6.x.list
+
+   sudo apt-get update && sudo apt-get install elasticsearch
+
+   sudo /bin/systemctl daemon-reload
+   sudo /bin/systemctl enable elasticsearch.service
+   sudo systemctl start elasticsearch.service
+   sudo ls -la /var/log/elasticsearch/
+   sudo cat /var/log/elasticsearch/elasticsearch.log
+   curl -XGET 'localhost:9200/?pretty'
+
+
+    sudo sed -i 's/ports.ubuntu.com\/ubuntu-ports/old-releases.ubuntu.com\/ubuntu/g' sources.list
+
+		https://zazzkids.com/
+		https://zazzkids.com/admin123/admin
+
+		User: admin
+		Password: password1
+
+		https://zazzkids.com/
+		Magento 2 Supro Theme
+
+HI EVERYONE
+THIS IS Sushil
+I LIVE IN Ahmedabad kalol WITH HIS FAMILY IN MY FAMILY APART OF MY PARENTS I HAVE AN ELDER SISTER AND A YOUNGER BROTHER.
+I HAVE DONE MY 12TH CLASS FROM DR R P Y INTER COLLAGE .
+AND I HAVE DONE MY DIMPLOMA COARSES FROM NIIT INSTITUTE OF TECHNOLOGY .
+I LIKE TO PLAY CRICKET MY FAVORITE CRICKET PLAYER IS VIRAT KOHLI
+TAHTS ALL ABOUT ME
+THANK YOU
+
+
+HI EVVERYONE GOOD AFTERNOON
+MY NAME IS SUSHIL
+I LIVE IN AHMEDAB KALOL
+I BELOGN TO JAUNPUR UTTARPRADESH
+IN MY FAMILY , A PART FROM MY PARENTS I HAVE 3 YOUNGER SISTER
+I HAVE DONE 12 CLASS FROM DR.RPY INTERCOLLAGE AND ALSO DONE DEPLOMA COURSE  
+SOFTWARE DEVELPMENT FROM RJ EDUCATIONNAL INSTITUTE KALOL
+I LOVE PLAYINK CRICKET AND READING BOOK
+TAHTS ALL ABOUT ME
+THANK YOU
